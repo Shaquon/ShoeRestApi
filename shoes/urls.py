@@ -12,10 +12,10 @@ from rest_framework import routers
 
 
 router = routers.DefaultRouter()
+router.register(r'shoe', views.ShoeViewSet)
 router.register(r'manufacturer', views.ManufacturerViewSet)
 router.register(r'shoetype', views.ShoeTypeViewSet)
 router.register(r'shoecolor', views.ShoeColorViewSet)
-router.register(r'shoe', views.ShoeViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),

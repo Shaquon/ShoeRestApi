@@ -2,6 +2,7 @@ from shoes.models import Shoe, ShoeType, ShoeColor, Manufacturer
 from rest_framework import serializers
 from rest_framework.serializers import HyperlinkedModelSerializer
 
+
 class ManufacturerSerializer(HyperlinkedModelSerializer):
     class Meta:
         model = Manufacturer
