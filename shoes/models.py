@@ -1,5 +1,10 @@
 from django.db import models
-
+# ahh growing up on the african Sahara.
+# They tell you it's just a desert,
+# but if you look hard enough you can find some treasure here
+# with over 500 species of plants, 100 reptilian species, and several species
+# of spiders, small anthopods, and scorpions.
+# and camels you can forget the camels!
 
 class Manufacturer(models.Model):
     name = models.CharField(max_length=50)
